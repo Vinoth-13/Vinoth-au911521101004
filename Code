@@ -1,0 +1,18 @@
+import time
+
+# Function to manage traffic lights
+def traffic_light_control(duration_green, duration_yellow, duration_red):
+    while True:
+        # Green Light
+        print("Green Light - Go!")
+        time.sleep(duration_green)
+        
+        # Yellow Light
+        print("Yellow Light - Slow down!")
+        time.sleep(duration_yellow)
+        
+        # Red Light
+        print("Red Light - Stop!")
+        time.sleep(duration_red)
+
+# Set duration for each light in seconds
